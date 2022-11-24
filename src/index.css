@@ -7,6 +7,7 @@ body {
   margin: 0;
   color: white;
   background: url('SignUp.jfif');
+  background-repeat: no-repeat;
 }
 
 code {
@@ -16,8 +17,10 @@ code {
 
 .small-box{
   border: 5px solid white;
-  width: 370px;
-  height: 720px;
+/*   width: 370px; */
+  width: 330px;
+/*   height: 720px; */
+  height: 700px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -161,5 +164,6 @@ code {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #161619;
+  position: relative;
 }
 
